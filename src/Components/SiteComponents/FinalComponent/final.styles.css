@@ -1,0 +1,44 @@
+.final {
+    background-image: url("/public/images/5.png");
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.thanksBox {
+    background-color: #ADD8E6;
+    width: 600px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.thanksBox h1, h3, h2 {
+    font-family: "Montserrat";
+}
+
+.thanksBox h1 {
+    margin-top: -80px;
+    margin-bottom: 100px;
+    font-size: 35px;
+}
+
+.thanksBox h3 {
+    margin-left: 35px;
+    font-size: 20px;
+}
+
+.thanksBox h2 {
+    margin-top: 50px ;
+    padding-top: 50px;
+}

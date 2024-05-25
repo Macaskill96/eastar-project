@@ -1,0 +1,62 @@
+.thirdComponentDiv {
+    background-image: url("/public/images/5.png");
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: right;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+.rama {
+    display: flex;
+    background-color: white;
+    height: 600px;
+    width: 400px;
+    border-top-right-radius: 90px;
+    border-bottom-left-radius: 90px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.blockImg {
+    max-height: 330px;
+    max-width: 330px;
+}
+.rama h2 {
+    margin: 12px;
+    font-size: 30px;
+}
+.rama p {
+    margin: 11px;
+    width: 325px;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+@media (max-width: 1700px) {
+    .thirdComponentDiv {
+        gap: 180px ;
+    }
+}
+@media (max-width: 1500px) {
+    .thirdComponentDiv {
+        gap: 160px;
+    }
+}
+@media (max-width: 1350px) {
+    .thirdComponentDiv {
+        gap:140px ;
+    }
+}
+@media (max-width: 1200px) {
+    .thirdComponentDiv {
+        gap: 120px;
+    }
+}

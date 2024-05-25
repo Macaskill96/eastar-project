@@ -1,0 +1,95 @@
+.secondComponentDiv {
+    background-image: url("/public/images/6.png");
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: right;
+}
+.h1-title {
+    display: flex;
+    font-size: 70px;
+    margin: 0;
+    padding: 0;
+    font-family: Bahnschrift;
+    margin-bottom: 120px;
+    padding-left: 50px;
+
+}
+.ul-title li {
+    margin: 25px;
+    font-size: 28px;
+}
+
+
+.titles-block {
+    height: 900px;
+    width: 900px;
+}
+
+.p-title {
+    font-size: 28px;
+}
+.opis {
+    padding-left: 45px;
+}
+
+.img2 {
+    position: relative;
+    width: 500px;
+    height: 600px;
+    top: 140px;
+    left: 300px;
+}
+
+@media (max-width: 1700px) {
+    .ul-title li {
+        margin: 22px;
+        font-size: 25px;
+    }
+    .h1-title {
+        font-size:65px ;
+    }
+    .titles-block {
+        width: 800px;
+    }
+    .img2 {
+        height: 550px;
+        width: 450px;
+    }
+}
+@media (max-width: 1500px) {
+    .ul-title li {
+        margin: 20px;
+        font-size: 23px;
+    }
+    .h1-title {
+        font-size: 60px;
+    }
+    .titles-block {
+        width: 700px;
+    }
+    .img2 {
+        height: 500px;
+        width: 400px;
+    }
+}
+@media (max-width: 1350px) {
+    .ul-title li {
+        margin: 18px;
+        font-size: 22px;
+    }
+    .h1-title {
+        font-size: 50px;
+    }
+    .titles-block {
+        width: 600px;
+    }
+    .img2 {
+        height: 450px;
+        width: 350px;
+    }
+}

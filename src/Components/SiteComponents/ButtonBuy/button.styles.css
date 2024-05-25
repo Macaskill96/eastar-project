@@ -1,0 +1,20 @@
+.buttonBuy{
+    height: 80px;
+    width: 300px;
+    margin: 0;
+    padding: 0;
+    border-radius: 100px;
+    border: none;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    font-size: 26px;
+    font-family: "Montserrat SemiBold";
+}
+
+.buttonBuy:hover {
+    cursor: pointer;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+/*.divButton {*/
+/*    position: relative;*/
+/*    left: 70px;*/
+/*}*/
