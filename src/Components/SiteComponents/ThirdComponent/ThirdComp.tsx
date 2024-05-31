@@ -2,8 +2,19 @@ import React from 'react';
 import './third.styles.css'
 
 const ThirdComp = () => {
+
+    const scrollToID = () => {
+        const section = document.getElementById('fifthSection');
+        if (section) {
+            const yOffset = -80;
+            const y = section.getBoundingClientRect().top + window.pageYOffset + yOffset;
+            window.scrollTo({ top: y, behavior: 'smooth' });
+        }
+    }
+
     return (
         <div className='thirdComponentDiv'>
+            <button onClick={scrollToID} className='buttonForSeller'>Як замовити?</button>
             <div className='rama'>
                 <img src={'images/block1.webp'} className='blockImg'/>
                 <h2>Компактнійсть та простота</h2>

@@ -40,6 +40,7 @@
 
 @media (max-width: 500px) {
     .fifthComponentDiv {
+        position: relative;
         flex-direction: column;
         height: 650px;
     }

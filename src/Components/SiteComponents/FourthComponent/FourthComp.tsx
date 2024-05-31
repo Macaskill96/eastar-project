@@ -19,7 +19,7 @@ const FourthComp = () => {
             <video controls  className='video'>
                 <source src={'videos/eastar.mp4'} type="video/mp4" />
             </video>
-            <button onClick={scrollToID}>Як замовити?</button>
+            <button onClick={scrollToID} className='buttonForSell'>Як замовити?</button>
         </div>
     );
 };

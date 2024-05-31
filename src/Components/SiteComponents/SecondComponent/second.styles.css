@@ -93,3 +93,9 @@
         width: 350px;
     }
 }
+
+@media (max-width: 500px) {
+    .img2 {
+        display: none;
+    }
+}

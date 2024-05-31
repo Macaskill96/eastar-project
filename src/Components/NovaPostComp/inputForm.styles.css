@@ -20,6 +20,8 @@
     padding: 10px;
     font-family: "Montserrat";
     border-radius: 7px;
+    top: calc(-100% - 5px); /* Змінив з "+" на "-" */
+    z-index: 1;
 }
 .listul {
     position: absolute;
@@ -52,4 +54,23 @@
     font-family: "Montserrat";
     border: none;
     background-color: snow;
+}
+
+@media (max-width: 500px) {
+    .listul {
+        display: block;
+        position: absolute;
+        z-index: 1;
+        bottom: 39%;
+    }
+    .listli {
+        background-color: #e4e9ec;
+        list-style-type: none;
+        min-height: 20px;
+        border-bottom: 1px solid #ccc;
+        padding: 8px;
+        font-family: "Montserrat";
+        border-radius: 3px;
+        z-index: 2;
+    }
 }
