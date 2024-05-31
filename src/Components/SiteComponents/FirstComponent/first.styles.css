@@ -60,6 +60,9 @@
     font-size: 30px;
     font-family: "Montserrat SemiBold";
 }
+.main-part p {
+    display: none;
+}
 
 
 @media (max-width: 1700px) {
