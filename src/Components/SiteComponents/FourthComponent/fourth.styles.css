@@ -40,3 +40,11 @@
 .fourthComponentDiv button:hover {
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
 }
+
+@media (max-width: 500px) {
+    .fourthComponentDiv h2 {
+        font-family: "Montserrat";
+        font-size: 22px;
+        font-weight: 700;
+    }
+}

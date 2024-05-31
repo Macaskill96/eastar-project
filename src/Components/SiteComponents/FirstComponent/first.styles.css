@@ -87,3 +87,27 @@
     }
 }
 
+@media (max-width: 500px) {
+    .img {
+        margin-left: 50px;
+        max-width: 350px;
+        max-height: 350px;
+    }
+    .firstComponentDiv {
+        align-items: center;
+        justify-content: center;
+    }
+    .main-part {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .p-mobile {
+        font-size: 18px;
+        font-family: "Montserrat SemiBold";
+        margin-bottom: 0;
+        margin-top: 3px;
+
+    }
+}
+

@@ -13,3 +13,17 @@
     margin: 5px;
     font-size: 50px;
 }
+@media (max-width: 500px) {
+    /*.price {*/
+    /*    height: 70px;*/
+    /*    width: 70px;*/
+    /*}*/
+    /*.price h1 {*/
+    /*    margin: 2px;*/
+    /*    font-size: 25px;*/
+    /*}*/
+    .price {
+        display: none;
+    }
+
+}

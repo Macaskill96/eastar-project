@@ -37,3 +37,27 @@
     margin-bottom: 80px;
 
 }
+
+@media (max-width: 500px) {
+    .fifthComponentDiv {
+        flex-direction: column;
+        height: 650px;
+    }
+    .howCreate {
+        width: 80%;
+        margin-bottom: 0;
+    }
+    .howCreate h1 {
+        font-family: "Montserrat";
+        font-size: 28px;
+        margin-left: 30px;
+        margin-bottom: 10px;
+    }
+    .howCreate li {
+        font-family: "Montserrat";
+        font-size: 12px;
+        margin-left: 5px;
+        margin-top: 4px;
+    }
+
+}

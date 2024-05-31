@@ -16,6 +16,7 @@ const FirstComp = () => {
                     <p>EASTAR v6</p>
                     <ButtonBuy/>
                 </div>
+                <p className='p-mobile'>За ціною 1699 грн!</p>
                 <img src={'images/first.png'} className='img'/>
             </div>
             <div className='divPrice'>
