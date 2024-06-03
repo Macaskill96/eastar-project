@@ -18,7 +18,7 @@ const InputForm = () => {
     const {handleSubmit, register, setValue, watch, getValues, formState: {errors} } = useForm<ISetValuePost>();
 
 
-    const [cityList, setCityList] = useState(true);
+    const [cityList, setCityList] = useState(false);
     const [wareHouseParams, setWareHouseParams] = useState<string>('')
     const [stateInput, setStateInput] = useState<boolean>(true)
     const [warehouseListState, setWarehouseListState] = useState<boolean>(false)
