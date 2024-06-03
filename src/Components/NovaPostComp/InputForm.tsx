@@ -120,10 +120,10 @@ const InputForm = () => {
 
                     />
                     {warehouseListState && (
-                        <ul className='listul'>
+                        <ul className='listul2'>
                             {dataWareHouse.map(item => (
                                 item.data.map(value => (
-                                    <li onClick={() => selectWarehouse(value.Description)} className='listli'>
+                                    <li onClick={() => selectWarehouse(value.Description)} className='listli2'>
                                         {value.Description}
                                     </li>
                                 ))
