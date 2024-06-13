@@ -20,6 +20,7 @@ export interface SuccessfulResponse {
 }
 
 export interface ISetValuePost {
+    userID: string;
     nameUser: string;
     lastName: string;
     phone: string;

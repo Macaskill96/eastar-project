@@ -1,9 +1,10 @@
 import {doc, setDoc} from "firebase/firestore";
 import {firestore} from "../../configs/firebase.config";
 
-export function setToStore(nameUser:string, lastName:string, phone:string, city:string, warehouse:string) {
-    const userDocRef = doc(firestore, 'users', nameUser);
+export function setToStore(userID:string, nameUser:string, lastName:string, phone:string, city:string, warehouse:string) {
+    const userDocRef = doc(firestore, 'users', userID);
     const userData = {
+        userId: userID,
         name: nameUser,
         lastName: lastName,
         phone: phone,

@@ -33,9 +33,20 @@ const InputForm = () => {
     useEffect(()=> {
         dispatch(novaActions.searchSettlements(watchCityInput))
     }, [dispatch, watchCityInput, watchWareHouseInput])
+
+
+    function generateUserID (length:number) {
+        let result = ''
+        let characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+        let charactersLength = characters.length;
+        for (let i = 0; i < length; i++) {
+            result += characters.charAt(Math.floor(Math.random() * charactersLength));
+        }
+        return result;
+    }
     const onSubmit = (data: ISetValuePost) => {
         setItemUser(data);
-        setToStore(data.nameUser, data.lastName, data.phone, data.city, data.warehouse)
+        setToStore(generateUserID(10), data.nameUser, data.lastName, data.phone, data.city, data.warehouse)
         navigate('/thanks')
     };
 
